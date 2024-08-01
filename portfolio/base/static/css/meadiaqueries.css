@@ -18,6 +18,7 @@
   }
   #hamburger-nav {
     display: flex;
+    position: relative;
   }
   #experience,
   .experience-details-container {
@@ -114,5 +115,8 @@
   }
   .topleft p {
     font-size: 2.5rem;
+  }
+  .bottomleft p {
+    font-size: 0.8rem;
   }
 }
