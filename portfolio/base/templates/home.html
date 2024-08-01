@@ -10,7 +10,12 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Viresh.</div>
+      <div class="logo">
+        <img
+          src="{% static 'assets/viresh logo (Custom).jpg' %}"
+          alt="viresh"
+        />
+      </div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,7 +26,12 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Viresh.</div>
+      <div class="logo">
+        <img
+          src="{% static 'assets/viresh logo (Custom).jpg' %}"
+          alt="viresh"
+        />
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -365,10 +375,10 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p
-            onclick="location.href='https://www.linkedin.com/in/viresh-panchal-3923a11b9'"
-          >
-            LinkedIn
+          <p>
+            <a href="https://www.linkedin.com/in/viresh-panchal-3923a11b9"
+              >LinkedIn</a
+            >
           </p>
         </div>
       </div>
