@@ -45,6 +45,10 @@
   .about-containers {
     margin-top: 0;
   }
+  /* Live Demo */
+  .live-demo-container h1 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -80,9 +84,7 @@
   .experience-sub-title {
     font-size: 1.25rem;
   }
-  .logo {
-    font-size: 1.5rem;
-  }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
@@ -101,5 +103,16 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .logo {
+    font-size: 2.5rem;
+  }
+  /* Live Demo */
+  .live-demo-container h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .topleft p {
+    font-size: 2.5rem;
   }
 }

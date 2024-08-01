@@ -1,5 +1,6 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&display=swap");
 
 * {
   margin: 0;
@@ -62,11 +63,17 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+}
+
+.logo {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-size: 3rem;
 }
 
 .logo:hover {
   cursor: default;
+  font-weight: 700;
 }
 
 /* HAMBURGER MENU */
@@ -451,4 +458,79 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Live Demo */
+
+.live-demo-container {
+  height: 100vh;
+}
+
+.live-demo-container h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.bgimg {
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+.topleft p {
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.topleft p:hover {
+  cursor: default;
+  font-weight: 700;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle button {
+  font-size: 1rem;
+  color: white;
+  width: 10rem;
+}
+
+.middle button:hover {
+  border-color: white;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 100%;
 }
