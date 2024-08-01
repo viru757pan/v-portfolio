@@ -472,6 +472,7 @@ footer p {
 }
 
 .bgimg {
+  background-image: url("/static/assets/demo-bg.png");
   /* Full-screen */
   height: 100%;
   /* Center the background image */
